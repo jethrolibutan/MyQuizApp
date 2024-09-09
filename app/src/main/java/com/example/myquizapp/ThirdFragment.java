@@ -28,7 +28,7 @@ public class ThirdFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonThird.setOnClickListener(v ->
+        binding.buttonFourth.setOnClickListener(v ->
                 NavHostFragment.findNavController(ThirdFragment.this)
                         .navigate(R.id.action_ThirdFragment_to_FirstFragment)
         );
