@@ -11,7 +11,6 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-        <!-- TextView for displaying Quiz Title -->
         <TextView
             android:id="@+id/textview_quiz_title"
             android:layout_width="wrap_content"
@@ -24,7 +23,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Button for Question 1 -->
         <Button
             android:id="@+id/button_first"
             android:layout_width="wrap_content"
@@ -35,7 +33,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="16dp" />
 
-        <!-- Button for Question 2 -->
         <Button
             android:id="@+id/button_second"
             android:layout_width="wrap_content"
@@ -46,7 +43,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Button for Question 3 -->
         <Button
             android:id="@+id/button_third"
             android:layout_width="wrap_content"

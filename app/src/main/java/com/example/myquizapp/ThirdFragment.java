@@ -9,18 +9,17 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.myquizapp.databinding.FragmentThirdBinding;  // Corrected binding
+import com.example.myquizapp.databinding.FragmentThirdBinding;
 
 public class ThirdFragment extends Fragment {
 
-    private FragmentThirdBinding binding;  // Updated binding for the ThirdFragment
+    private FragmentThirdBinding binding;
 
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-        // Use the correct binding for ThirdFragment
         binding = FragmentThirdBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
@@ -29,10 +28,9 @@ public class ThirdFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Correct the button ID and the navigation action
         binding.buttonThird.setOnClickListener(v ->
                 NavHostFragment.findNavController(ThirdFragment.this)
-                        .navigate(R.id.action_ThirdFragment_to_FirstFragment)  // Update the correct action
+                        .navigate(R.id.action_ThirdFragment_to_FirstFragment)
         );
     }
 

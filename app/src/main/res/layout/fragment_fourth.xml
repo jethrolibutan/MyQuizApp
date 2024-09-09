@@ -21,7 +21,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- Updated TextView ID to textview_fourth -->
         <TextView
             android:id="@+id/textview_fourth"
             android:layout_width="wrap_content"
