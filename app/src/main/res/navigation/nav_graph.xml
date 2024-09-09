@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.myquizapp.FirstFragment"
-        android:label="First Fragment"
+        android:label="My Quiz App"
         tools:layout="@layout/fragment_first">
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -30,7 +30,6 @@
             app:destination="@id/FirstFragment" />
     </fragment>
 
-    <!-- Third Fragment with back navigation to FirstFragment -->
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="com.example.myquizapp.ThirdFragment"
